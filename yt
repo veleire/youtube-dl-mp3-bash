@@ -1,6 +1,8 @@
 #!/bin/bash
+
+# https://github.com/veleire/youtube-dl-mp3-bash
 # download mp3 from yt with cover in hq quality
-# usage ~# ./yt https://www.youtube.com/watch?v=id
+# usage ~# yt https://www.youtube.com/watch?v=id
 
 
 echo -e "\e[32m Youtube to mp3 HQ\e[0m \e[39m"
