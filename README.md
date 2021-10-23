@@ -37,5 +37,5 @@ chmod a+rx /usr/local/bin/yt
  ```sh
 yt https://www.youtube.com/watch?v=id
 ```
-	 
 
+Your download directory is ~/mp3
