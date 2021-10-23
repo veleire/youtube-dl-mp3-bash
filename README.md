@@ -1,5 +1,5 @@
 # youtube-dl-mp3-bash
-Bash script to download mp3 from youtube with cover in highest available quality
+Bash script to download mp3 from youtube with cover in highest available quality (debian/ubuntu)
 
 
 
