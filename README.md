@@ -2,14 +2,34 @@
 Bash script to download mp3 from youtube with cover in highest available quality
 
 
+
+### Prerequisites
+
 Require ffmpeg and youtube-dl
 
-1. install youtube-dl
-
-sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+* youtube-dl
+  ```sh
+  sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 chmod a+rx /usr/local/bin/youtube-dl
-
-2. install ffmpeg
+  ```
+	
+	* ffmpeg
+  ```sh
 apt install ffmpeg
+  ```
 
-3. 
+### Installation
+
+Download script
+   ```sh
+sudo curl -L https://github.com/veleire/youtube-dl-mp3-bash/raw/main/yt -o /usr/local/bin/yt
+chmod a+rx /usr/local/bin/yt
+   ```
+
+## Usage
+
+   ```sh
+yt https://www.youtube.com/watch?v=id
+   ```
+	 
+
