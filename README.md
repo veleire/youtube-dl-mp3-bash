@@ -11,7 +11,7 @@ Require ffmpeg and youtube-dl
   ```sh
   sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 chmod a+rx /usr/local/bin/youtube-dl
-
+  ```
 	
 * ffmpeg
   ```sh
