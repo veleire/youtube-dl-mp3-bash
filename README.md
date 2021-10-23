@@ -27,7 +27,6 @@ apt install ffmpeg
 Download script
    ```sh
 sudo curl -L https://github.com/veleire/youtube-dl-mp3-bash/raw/main/yt -o /usr/local/bin/yt
-chmod a+rx /usr/local/bin/yt
    ```
 
    ```sh
