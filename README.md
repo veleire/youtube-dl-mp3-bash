@@ -34,8 +34,8 @@ chmod a+rx /usr/local/bin/yt
    ```
 ## Usage
 
-   ```sh
+ ```sh
 yt https://www.youtube.com/watch?v=id
-   ```
+```
 	 
 
