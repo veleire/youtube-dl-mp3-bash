@@ -13,13 +13,13 @@ sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/you
 ```
   
 ```sh
-chmod a+rx /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
 ```
   
 * ffmpeg
 
 ```sh
-apt install ffmpeg
+sudo apt install ffmpeg
 ```
 
 ### Installation
@@ -30,7 +30,7 @@ sudo curl -L https://github.com/veleire/youtube-dl-mp3-bash/raw/main/yt -o /usr/
    ```
 
    ```sh
-chmod a+rx /usr/local/bin/yt
+sudo chmod a+rx /usr/local/bin/yt
    ```
 ## Usage
 
