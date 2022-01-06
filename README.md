@@ -1,7 +1,5 @@
 # youtube-dl-mp3-bash
-Simple bash script to download mp3 from youtube
-
-
+Simple bash script to download mp3 from youtube including embedded thumbnails
 
 ### Prerequisites
 
@@ -13,13 +11,19 @@ sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/you
 ```
   
 ```sh
-sudo chmod a+rx /usr/local/bin/youtube-dl
+chmod a+rx /usr/local/bin/youtube-dl
 ```
   
 * ffmpeg
 
+**Debian / Ubuntu Linux**  
 ```sh
-sudo apt install ffmpeg
+apt install ffmpeg
+```
+
+**Arch Linux**  
+```
+pacman -S ffmpeg
 ```
 
 ### Installation
@@ -38,4 +42,4 @@ sudo chmod a+rx /usr/local/bin/yt
 yt https://www.youtube.com/watch?v=id
 ```
 
-Your download directory is ~/mp3
+**note:** The utility will save all downloaded files in ``` ~/mp3```. 
